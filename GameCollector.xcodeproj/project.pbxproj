@@ -13,6 +13,8 @@
 		4B034DA11EE7C74000781F68 /* GameCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B034D9F1EE7C74000781F68 /* GameCollector.xcdatamodeld */; };
 		4B034DA31EE7C74000781F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B034DA21EE7C74000781F68 /* Assets.xcassets */; };
 		4B034DA61EE7C74000781F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B034DA41EE7C74000781F68 /* LaunchScreen.storyboard */; };
+		4B034DAE1EE995AD00781F68 /* Beyond-Two-Souls-header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B034DAD1EE995AD00781F68 /* Beyond-Two-Souls-header.jpg */; };
+		4B034DB01EE998E700781F68 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B034DAF1EE998E700781F68 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4B034DA21EE7C74000781F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B034DA51EE7C74000781F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B034DA71EE7C74100781F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B034DAD1EE995AD00781F68 /* Beyond-Two-Souls-header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Beyond-Two-Souls-header.jpg"; sourceTree = "<group>"; };
+		4B034DAF1EE998E700781F68 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 			children = (
 				4B034D971EE7C74000781F68 /* GameCollector */,
 				4B034D961EE7C74000781F68 /* Products */,
+				4B034DAD1EE995AD00781F68 /* Beyond-Two-Souls-header.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +64,7 @@
 				4B034D981EE7C74000781F68 /* AppDelegate.swift */,
 				4B034D9A1EE7C74000781F68 /* ViewController.swift */,
 				4B034D9C1EE7C74000781F68 /* Main.storyboard */,
+				4B034DAF1EE998E700781F68 /* GameViewController.swift */,
 				4B034DA21EE7C74000781F68 /* Assets.xcassets */,
 				4B034DA41EE7C74000781F68 /* LaunchScreen.storyboard */,
 				4B034DA71EE7C74100781F68 /* Info.plist */,
@@ -129,6 +135,7 @@
 				4B034DA61EE7C74000781F68 /* LaunchScreen.storyboard in Resources */,
 				4B034DA31EE7C74000781F68 /* Assets.xcassets in Resources */,
 				4B034D9E1EE7C74000781F68 /* Main.storyboard in Resources */,
+				4B034DAE1EE995AD00781F68 /* Beyond-Two-Souls-header.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B034DB01EE998E700781F68 /* GameViewController.swift in Sources */,
 				4B034DA11EE7C74000781F68 /* GameCollector.xcdatamodeld in Sources */,
 				4B034D9B1EE7C74000781F68 /* ViewController.swift in Sources */,
 				4B034D991EE7C74000781F68 /* AppDelegate.swift in Sources */,
